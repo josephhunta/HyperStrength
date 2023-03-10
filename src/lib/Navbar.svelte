@@ -4,7 +4,7 @@
 
 <div>
     <nav>
-        <label class="logo">34x43</label>
+        <span class="logo">34x43</span>
         <ul>
             <li><a href="#.com">Home</a></li>
             <li><a href="#.com">Workouts</a></li>
