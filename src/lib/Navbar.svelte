@@ -1,0 +1,57 @@
+<script lang="ts">
+
+</script>
+
+<div>
+    <nav>
+        <label class="logo">34x43</label>
+        <ul>
+            <li><a href="#.com">Home</a></li>
+            <li><a href="#.com">Workouts</a></li>
+            <li><a href="#.com">Track</a></li>
+            <li><a href="#.com">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+<style lang="scss">
+    *{
+        text-decoration: none;
+        list-style: none;
+    }
+    nav{
+        background: #581414;
+        height: 60px;
+        width: 100%;
+        .logo{
+            width: 300px;
+            color: white;
+            font-size: 35px;
+            line-height: 60px;
+            padding: 0 150px;
+            font-weight: bold;
+        }
+        ul{
+            float: right;
+            margin-right: 20px;
+            li{
+                display: inline-block;
+                line-height: 60px;
+                margin: 0 10px;
+                a{
+                    color: white;
+                    font-size: 17px;
+                    text-transform: uppercase;
+                    padding: 7px 13px;
+                    border-radius: 3px;
+                    &:hover{
+                        background: #751c1c;
+                        transition: ease-in-out .2s,;
+                    }
+                }
+            }
+        }
+
+    }
+
+</style>
