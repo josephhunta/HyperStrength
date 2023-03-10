@@ -4,11 +4,11 @@
 
 <div>
     <nav>
-        <span class="logo">34x43</span>
+        <span class="logo">PANJEZIKU</span>
         <ul>
             <li><a href="#.com">Home</a></li>
             <li><a href="#.com">Workouts</a></li>
-            <li><a href="#.com">Track</a></li>
+            <li><a href="#.com">Log</a></li>
             <li><a href="#.com">Contact</a></li>
         </ul>
     </nav>
@@ -28,12 +28,12 @@
             color: white;
             font-size: 35px;
             line-height: 60px;
-            padding: 0 150px;
+            padding: 0 250px;
             font-weight: bold;
         }
         ul{
             float: right;
-            margin-right: 20px;
+            margin-right: 250px;
             li{
                 display: inline-block;
                 line-height: 60px;
@@ -42,7 +42,7 @@
                     color: white;
                     font-size: 17px;
                     text-transform: uppercase;
-                    padding: 7px 13px;
+                    padding: 8px 15px;
                     border-radius: 3px;
                     &:hover{
                         background: #751c1c;
