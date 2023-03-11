@@ -1,12 +1,13 @@
 <script lang="ts">
-
+    import Fa from 'svelte-fa'
+    import { faBars } from '@fortawesome/free-solid-svg-icons'
 </script>
 
 <div>
     <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
+            <Fa icon={faBars}/>
         </label>
         <span class="logo" id="logo">PANJEZIKU</span>
         <ul>
