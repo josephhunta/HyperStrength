@@ -13,13 +13,22 @@
         position: absolute;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.658);
+        transition: all .5s;
         h1{
             margin: 20px;
             text-align: center;
         }
         p{
-            margin: 5px 250px;
+            margin: 5px 150px;
             margin-bottom: 40px;
+        }
+    }
+    @media (max-width: 1152px){
+        .container{
+            margin: 0;
+            p{
+                margin: 0 40px;
+            }
         }
     }
 </style>
